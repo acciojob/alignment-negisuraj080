@@ -1,17 +1,24 @@
 /*  your css code here. If applicable */
-<style>
-        body {
+body {
             font-family: Arial, sans-serif;
-        }
-
-        h1 {
             text-align: center;
         }
 
+        h1 {
+            margin: 20px 0;
+        }
+
         .middle {
-            border: 1px solid black;
-            border-spacing: 1px;
+            margin: 20px 0;
             border-collapse: collapse;
+            width: 50%;
+            margin: auto;
+        }
+
+        .middle th, .middle td {
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
         }
 
         .center {
@@ -28,6 +35,5 @@
 
         .blue {
             background-color: blue;
-            color: white;
         }
-    </style>
+    
